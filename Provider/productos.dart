@@ -1,9 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:comandas_flutter_git/model/producto.dart';
 import 'package:comandas_flutter_git/model/menu.dart';
 import 'package:flutter/material.dart';
-
-import '../api/firebase_api.dart';
 
 class ProductosProvider extends ChangeNotifier {
   final List<Producto> _productos = [

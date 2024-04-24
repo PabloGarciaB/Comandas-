@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../utils/utils.dart';
-
 class ProductoFormWidget extends StatelessWidget {
   final String nombre;
   final String costo;

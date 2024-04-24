@@ -3,7 +3,6 @@ import 'package:comandas_flutter_git/model/producto.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../utils/utils.dart';
-import 'producto_form.dart';
 
 class AgregarProductoWidget extends StatefulWidget {
   const AgregarProductoWidget({super.key});
